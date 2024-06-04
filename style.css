@@ -78,7 +78,9 @@ button:hover{
 }
 
 .card img{
-    max-width: 100%;
+    max-width: 100%;     
+    height: 200px;
+    padding: 10px 0px 10px 0px;
 }
 
 .card:hover{
@@ -87,9 +89,9 @@ button:hover{
 }
 
 .photo{
-    height: 200px;
     width: 100%;
     background-size: cover;
+   
 }
 
 .city{
