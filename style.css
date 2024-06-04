@@ -61,17 +61,28 @@ button:hover{
     flex-wrap: wrap;
 }
 
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .card{
     background: #fff;
-    width: 250px;
-    margin: 20px;
+    width: 280px;
+    margin: 15px;
+    margin-top: 30px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.079);
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
 }
 
+.card img{
+    max-width: 100%;
+}
+
 .card:hover{
-    transform: translateY(-15px);
+    transform: translateY(-10px);
     transition: .5s ease;
 }
 
