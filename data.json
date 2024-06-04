@@ -1,0 +1,232 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "img": "./resources/amsterdam.jpg"
+    },
+    {
+      "id": 2,
+      "city": "Athens",
+      "country": "Greece",
+      "img": "./resources/athens.jpg"
+    },
+    {
+      "id": 3,
+      "city": "Barcelona",
+      "country": "Spain",
+      "img": "./resources/barcelona.jpg"
+    },
+    {
+      "id": 4,
+      "city": "Berlin",
+      "country": "Germany",
+      "img": "./resources/berlin.jpg"
+    },
+    {
+      "id": 5,
+      "city": "Bordeaux",
+      "country": "France",
+      "img": "./resources/bordeaux.jpg"
+    },
+    {
+      "id": 6,
+      "city": "Copenhagen",
+      "country": "Denmark",
+      "img": "./resources/copenhagen.jpg"
+    },
+    {
+      "id": 7,
+      "city": "Dubrovnik",
+      "country": "Croatia",
+      "img": "./resources/dubrovnik.jpg"
+    },
+    {
+      "id": 8,
+      "city": "Stockholm",
+      "country": "Sweden",
+      "img": "./resources/stockholm.jpg"
+    },
+    {
+      "id": 9,
+      "city": "Florence",
+      "country": "Italy",
+      "img": "./resources/florence.jpg"
+    },
+    {
+      "id": 10,
+      "city": "Frankfurt",
+      "country": "Germany",
+      "img": "./resources/frankfurt.jpg"
+    },
+    {
+      "id": 11,
+      "city": "Geneva",
+      "country": "Switzerland",
+      "img": "./resources/geneva.jpg"
+    },
+    {
+      "id": 12,
+      "city": "Genoa",
+      "country": "Italy",
+      "img": "./resources/genoa.jpg"
+    },
+    {
+      "id": 13,
+      "city": "Granada",
+      "country": "Spain",
+      "img": "./resources/granada.jpg"
+    },
+    {
+      "id": 14,
+      "city": "Hamburg",
+      "country": "Germany",
+      "img": "./resources/hamburg.jpg"
+    },
+    {
+      "id": 15,
+      "city": "Lyon",
+      "country": "France",
+      "img": "./resources/lyon.jpg"
+    },
+    {
+      "id": 16,
+      "city": "Madrid",
+      "country": "Spain",
+      "img": "./resources/madrid.jpg"
+    },
+    {
+      "id": 17,
+      "city": "Marseille",
+      "country": "France",
+      "img": "./resources/marseille.jpg"
+    },
+    {
+      "id": 18,
+      "city": "Milan",
+      "country": "Italy",
+      "img": "./resources/milan.jpg"
+    },
+    {
+      "id": 19,
+      "city": "Moscow",
+      "country": "Russia",
+      "img": "./resources/moscow.jpg"
+    },
+    {
+      "id": 20,
+      "city": "Munich",
+      "country": "Germany",
+      "img": "./resources/munich.jpg"
+    },
+    {
+      "id": 21,
+      "city": "Mykonos",
+      "country": "Greece",
+      "img": "./resources/mykonos.jpg"
+    },
+    {
+      "id": 22,
+      "city": "Naples",
+      "country": "Italy",
+      "img": "./resources/naples.jpg"
+    },
+    {
+      "id": 23,
+      "city": "Nice",
+      "country": "France",
+      "img": "./resources/nice.jpg"
+    },
+    {
+      "id": 24,
+      "city": "Paris",
+      "country": "France",
+      "img": "./resources/paris.jpg"
+    },
+    {
+      "id": 25,
+      "city": "Rennes",
+      "country": "France",
+      "img": "./resources/rennes.jpg"
+    },
+    {
+      "id": 26,
+      "city": "Rome",
+      "country": "Italy",
+      "img": "./resources/rome.jpg"
+    },
+    {
+      "id": 27,
+      "city": "Salzburg",
+      "country": "Austria",
+      "img": "./resources/salzburg.jpg"
+    },
+    {
+      "id": 28,
+      "city": "Santorini",
+      "country": "Greece",
+      "img": "./resources/santorini.jpg"
+    },
+    {
+      "id": 29,
+      "city": "Saint Petersburg",
+      "country": "Russia",
+      "img": "./resources/saint_petersburg.jpg"
+    },
+    {
+      "id": 30,
+      "city": "Seville",
+      "country": "Spain",
+      "img": "./resources/seville.jpg"
+    },
+    {
+      "id": 31,
+      "city": "Turin",
+      "country": "Italy",
+      "img": "./resources/turin.jpg"
+    },
+    {
+      "id": 32,
+      "city": "Valencia",
+      "country": "Spain",
+      "img": "./resources/valencia.jpg"
+    },
+    {
+      "id": 33,
+      "city": "Venice",
+      "country": "Italy",
+      "img": "./resources/venice.jpg"
+    },
+    {
+      "id": 34,
+      "city": "Verona",
+      "country": "Italy",
+      "img": "./resources/verona.jpg"
+    },
+    {
+      "id": 35,
+      "city": "Vienna",
+      "country": "Austria",
+      "img": "./resources/vienna.jpg"
+    },
+    {
+      "id": 36,
+      "city": "Zadar",
+      "country": "Croatia",
+      "img": "./resources/zadar.jpg"
+    },
+    {
+      "id": 37,
+      "city": "Zagreb",
+      "country": "Croatia",
+      "img": "./resources/zagreb.jpg"
+    },
+    {
+      "id": 38,
+      "city": "Zurich",
+      "country": "Switzerland",
+      "img": "./resources/zurich.jpg"
+    }
+  ]
+}

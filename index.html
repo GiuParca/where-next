@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spot Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="search-section">
+        <h1 class="title">Where next?</h1>
+        <form>
+            <input type="text" placeholder="Search for city or country" id="input">
+            <div class="pagination">
+                <button class="button leftButton">
+                    < </button>
+                        <p id="pages">Page num</p>
+                        <button class="button rightButton"> > </button>
+            </div>
+        </form>
+    </div>
+
+    <template data-cities-template>
+        <div id="cards">
+        <div class="card">
+            <div class="country"></div>
+            <div class="photo"></div>
+            <div class="city"></div>
+        </div>
+        </div>
+    </template>
+</body>
+
+</html>
