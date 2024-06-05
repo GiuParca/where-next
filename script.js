@@ -1,11 +1,19 @@
 const searchBar = document.getElementById('input');
 let cities = []; 
+const prevBtn = document.getElementById('prevButton');
+const nextBtn = document.getElementById('nextButton');
+let page = 1;
+const cardsPerPage = 12;
 
-function renderCards(data) {
+function renderCards(data, page) {
     const container = document.getElementById('container');
     container.innerHTML = ''; 
 
-    data.forEach(city => {
+    const start = (page - 1) * cardsPerPage;
+    const end = start + cardsPerPage;
+    const pagination = data.slice(start, end);
+
+    pagination.forEach(city => {
         const card = document.createElement('div');
         card.classList.add("card");
 
@@ -26,6 +34,17 @@ function renderCards(data) {
         card.appendChild(countryName);
         container.appendChild(card);
     });
+
+    updatePaginationButtons(data.length);
+}
+
+function updatePaginationButtons(totalItems) {
+    const totalPages = Math.ceil(totalItems / cardsPerPage);
+    const pagesElement = document.getElementById('pages');
+    pagesElement.textContent = `Page ${page} of ${totalPages}`;
+
+    prevBtn.disabled = page === 1;
+    nextBtn.disabled = page === totalPages;
 }
 
 function loadingCards() {
@@ -33,7 +52,7 @@ function loadingCards() {
         .then(response => response.json())
         .then(data => {
             cities = data.cities; 
-            renderCards(cities); 
+            renderCards(cities, page); 
         })
         .catch(error => console.error('Error loading the cards', error));
 }
@@ -45,5 +64,20 @@ searchBar.addEventListener('keyup', (e) => {
     const filteredResult = cities.filter(city => {
         return city.city.toLowerCase().includes(searchTarget) || city.country.toLowerCase().includes(searchTarget);
     });
-    renderCards(filteredResult);
+    page = 1; // Reset to the first page when searching
+    renderCards(filteredResult, page);
+});
+
+prevBtn.addEventListener('click', () => {
+    if (page > 1) {
+        page--;
+        renderCards(cities, page);
+    }
+});
+
+nextBtn.addEventListener('click', () => {
+    if (page * cardsPerPage < cities.length) {
+        page++;
+        renderCards(cities, page);
+    }
 });
