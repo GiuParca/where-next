@@ -1,4 +1,4 @@
-![image](https://github.com/GiuParca/where-next/assets/124640350/fbbceb3a-be35-43c7-a746-cd2ecb131ab3)<h1>Where next?</h1>
+<h1>Where next?</h1>
 
 <p><strong>Purpose of this project:</strong><br>
 to deepen knowledge of search filters, using fetch() to load JSON data, and pagination with JavaScript</p>
