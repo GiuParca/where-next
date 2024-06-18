@@ -64,7 +64,7 @@ searchBar.addEventListener('keyup', (e) => {
     const filteredResult = cities.filter(city => {
         return city.city.toLowerCase().includes(searchTarget) || city.country.toLowerCase().includes(searchTarget);
     });
-    page = 1; // Reset to the first page when searching
+    page = 1;
     renderCards(filteredResult, page);
 });
 

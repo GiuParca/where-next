@@ -4,229 +4,571 @@
       "id": 1,
       "city": "Amsterdam",
       "country": "Netherlands",
-      "img": "./resources/amsterdam.jpg"
+      "img": "./resources/amsterdam.jpg",
+      "population": 821752,
+      "description": "Amsterdam is known for its artistic heritage, elaborate canal system, and narrow houses with gabled facades.",
+      "top_5_places_to_visit": [
+        "Rijksmuseum",
+        "Van Gogh Museum",
+        "Anne Frank House",
+        "Vondelpark",
+        "Dam Square"
+      ]
     },
     {
       "id": 2,
       "city": "Athens",
       "country": "Greece",
-      "img": "./resources/athens.jpg"
+      "img": "./resources/athens.jpg",
+      "population": 664046,
+      "description": "Athens is the capital of Greece, known for its ancient landmarks and rich history.",
+      "top_5_places_to_visit": [
+        "Acropolis",
+        "Parthenon",
+        "Acropolis Museum",
+        "Ancient Agora",
+        "Plaka"
+      ]
     },
     {
       "id": 3,
       "city": "Barcelona",
       "country": "Spain",
-      "img": "./resources/barcelona.jpg"
+      "img": "./resources/barcelona.jpg",
+      "population": 1620343,
+      "description": "Barcelona is famous for its unique architecture, vibrant culture, and beautiful beaches.",
+      "top_5_places_to_visit": [
+        "Sagrada Família",
+        "Park Güell",
+        "Casa Milà",
+        "La Rambla",
+        "Gothic Quarter"
+      ]
     },
     {
       "id": 4,
       "city": "Berlin",
       "country": "Germany",
-      "img": "./resources/berlin.jpg"
+      "img": "./resources/berlin.jpg",
+      "population": 3644826,
+      "description": "Berlin is the capital of Germany, known for its art scene, modern landmarks, and historical sites.",
+      "top_5_places_to_visit": [
+        "Brandenburg Gate",
+        "Berlin Wall",
+        "Reichstag Building",
+        "Museum Island",
+        "Checkpoint Charlie"
+      ]
     },
     {
       "id": 5,
       "city": "Bordeaux",
       "country": "France",
-      "img": "./resources/bordeaux.jpg"
+      "img": "./resources/bordeaux.jpg",
+      "population": 257068,
+      "description": "Bordeaux is famous for its wine industry, beautiful architecture, and historic monuments.",
+      "top_5_places_to_visit": [
+        "Place de la Bourse",
+        "La Cité du Vin",
+        "Basilica of Saint Michael",
+        "Pont de Pierre",
+        "Grand Théâtre de Bordeaux"
+      ]
     },
     {
       "id": 6,
       "city": "Copenhagen",
       "country": "Denmark",
-      "img": "./resources/copenhagen.jpg"
+      "img": "./resources/copenhagen.jpg",
+      "population": 602481,
+      "description": "Copenhagen, the capital of Denmark, is known for its historic center, modern architecture, and vibrant cultural scene.",
+      "top_5_places_to_visit": [
+        "Nyhavn",
+        "Tivoli Gardens",
+        "The Little Mermaid",
+        "Rosenborg Castle",
+        "Amalienborg Palace"
+      ]
     },
     {
       "id": 7,
       "city": "Dubrovnik",
       "country": "Croatia",
-      "img": "./resources/dubrovnik.jpg"
+      "img": "./resources/dubrovnik.jpg",
+      "population": 42415,
+      "description": "Dubrovnik is a stunning Croatian city known for its well-preserved medieval architecture and beautiful coastline.",
+      "top_5_places_to_visit": [
+        "Old Town",
+        "Dubrovnik Walls",
+        "Stradun",
+        "Rector's Palace",
+        "Lovrijenac Fort"
+      ]
     },
     {
       "id": 8,
       "city": "Stockholm",
       "country": "Sweden",
-      "img": "./resources/stockholm.jpg"
+      "img": "./resources/stockholm.jpg",
+      "population": 975551,
+      "description": "Stockholm is the capital of Sweden, known for its archipelago, beautiful architecture, and vibrant culture.",
+      "top_5_places_to_visit": [
+        "Gamla Stan",
+        "Vasa Museum",
+        "Skansen",
+        "Stockholm Palace",
+        "Drottningholm Palace"
+      ]
     },
     {
       "id": 9,
       "city": "Florence",
       "country": "Italy",
-      "img": "./resources/florence.jpg"
+      "img": "./resources/florence.jpg",
+      "population": 383084,
+      "description": "Florence is the capital of Italy’s Tuscany region, known for its Renaissance art and architecture.",
+      "top_5_places_to_visit": [
+        "Cathedral of Santa Maria del Fiore",
+        "Uffizi Gallery",
+        "Ponte Vecchio",
+        "Palazzo Vecchio",
+        "Basilica of Santa Croce"
+      ]
     },
     {
       "id": 10,
       "city": "Frankfurt",
       "country": "Germany",
-      "img": "./resources/frankfurt.jpg"
+      "img": "./resources/frankfurt.jpg",
+      "population": 753056,
+      "description": "Frankfurt is a major financial hub in Germany, known for its futuristic skyline and cultural attractions.",
+      "top_5_places_to_visit": [
+        "Römer",
+        "Städel Museum",
+        "Palmengarten",
+        "Frankfurt Cathedral",
+        "Main Tower"
+      ]
     },
     {
       "id": 11,
       "city": "Geneva",
       "country": "Switzerland",
-      "img": "./resources/geneva.jpg"
+      "img": "./resources/geneva.jpg",
+      "population": 201818,
+      "description": "Geneva is a global city in Switzerland, known for its Red Cross headquarters and UN offices.",
+      "top_5_places_to_visit": [
+        "Jet d'Eau",
+        "St Pierre Cathedral",
+        "Palais des Nations",
+        "International Red Cross and Red Crescent Museum",
+        "Mont Salève"
+      ]
     },
     {
       "id": 12,
       "city": "Genoa",
       "country": "Italy",
-      "img": "./resources/genoa.jpg"
+      "img": "./resources/genoa.jpg",
+      "population": 583601,
+      "description": "Genoa is a historic port city in Italy, known for its maritime heritage and beautiful architecture.",
+      "top_5_places_to_visit": [
+        "Aquarium of Genoa",
+        "Piazza De Ferrari",
+        "Palazzi dei Rolli",
+        "Genoa Cathedral",
+        "Via Garibaldi"
+      ]
     },
     {
       "id": 13,
       "city": "Granada",
       "country": "Spain",
-      "img": "./resources/granada.jpg"
+      "img": "./resources/granada.jpg",
+      "population": 233764,
+      "description": "Granada is known for its stunning Moorish architecture, particularly the Alhambra palace.",
+      "top_5_places_to_visit": [
+        "Alhambra",
+        "Generalife",
+        "Albaicín",
+        "Granada Cathedral",
+        "Royal Chapel of Granada"
+      ]
     },
     {
       "id": 14,
       "city": "Hamburg",
       "country": "Germany",
-      "img": "./resources/hamburg.jpg"
+      "img": "./resources/hamburg.jpg",
+      "population": 1841179,
+      "description": "Hamburg is a major port city in Germany, known for its maritime history and modern architecture.",
+      "top_5_places_to_visit": [
+        "Miniatur Wunderland",
+        "Elbphilharmonie",
+        "Speicherstadt",
+        "Planten un Blomen",
+        "Hamburg Harbor"
+      ]
     },
     {
       "id": 15,
       "city": "Lyon",
       "country": "France",
-      "img": "./resources/lyon.jpg"
+      "img": "./resources/lyon.jpg",
+      "population": 518635,
+      "description": "Lyon is known for its historical and architectural landmarks and its vibrant cultural scene.",
+      "top_5_places_to_visit": [
+        "Basilica of Notre-Dame de Fourvière",
+        "Vieux Lyon",
+        "Parc de la Tête d'Or",
+        "Musée des Confluences",
+        "Presqu'île"
+      ]
     },
     {
       "id": 16,
       "city": "Madrid",
       "country": "Spain",
-      "img": "./resources/madrid.jpg"
+      "img": "./resources/madrid.jpg",
+      "population": 3223334,
+      "description": "Madrid is the capital of Spain, known for its Royal Palace, vibrant nightlife, and rich culture.",
+      "top_5_places_to_visit": [
+        "Royal Palace",
+        "Prado Museum",
+        "Retiro Park",
+        "Puerta del Sol",
+        "Plaza Mayor"
+      ]
     },
     {
       "id": 17,
       "city": "Marseille",
       "country": "France",
-      "img": "./resources/marseille.jpg"
+      "img": "./resources/marseille.jpg",
+      "population": 861635,
+      "description": "Marseille is a port city in southern France, known for its rich history and vibrant cultural scene.",
+      "top_5_places_to_visit": [
+        "Old Port of Marseille",
+        "Basilica of Notre-Dame de la Garde",
+        "Calanques National Park",
+        "Museum of European and Mediterranean Civilisations",
+        "Le Panier"
+      ]
     },
     {
       "id": 18,
       "city": "Milan",
       "country": "Italy",
-      "img": "./resources/milan.jpg"
+      "img": "./resources/milan.jpg",
+      "population": 1378689,
+      "description": "Milan is Italy's fashion and design capital, known for its high-end shopping and gothic cathedral.",
+      "top_5_places_to_visit": [
+        "Milan Cathedral",
+        "The Last Supper",
+        "Galleria Vittorio Emanuele II",
+        "Sforza Castle",
+        "Brera District"
+      ]
     },
     {
       "id": 19,
       "city": "Moscow",
       "country": "Russia",
-      "img": "./resources/moscow.jpg"
+      "img": "./resources/moscow.jpg",
+      "population": 12506468,
+      "description": "Moscow is the capital of Russia, known for its historic and architectural landmarks.",
+      "top_5_places_to_visit": [
+        "Red Square",
+        "Kremlin",
+        "Saint Basil's Cathedral",
+        "Tretyakov Gallery",
+        "Bolshoi Theatre"
+      ]
     },
     {
       "id": 20,
       "city": "Munich",
       "country": "Germany",
-      "img": "./resources/munich.jpg"
+      "img": "./resources/munich.jpg",
+      "population": 1471508,
+      "description": "Munich is the capital of Bavaria, known for its Oktoberfest, beer halls, and historic buildings.",
+      "top_5_places_to_visit": [
+        "Marienplatz",
+        "Nymphenburg Palace",
+        "English Garden",
+        "BMW Museum",
+        "Allianz Arena"
+      ]
     },
     {
       "id": 21,
       "city": "Mykonos",
       "country": "Greece",
-      "img": "./resources/mykonos.jpg"
+      "img": "./resources/mykonos.jpg",
+      "population": 10134,
+      "description": "Mykonos is a Greek island known for its vibrant nightlife and beautiful beaches.",
+      "top_5_places_to_visit": [
+        "Mykonos Town",
+        "Paradise Beach",
+        "Super Paradise Beach",
+        "Little Venice",
+        "Windmills of Mykonos"
+      ]
     },
     {
       "id": 22,
       "city": "Naples",
       "country": "Italy",
-      "img": "./resources/naples.jpg"
+      "img": "./resources/naples.jpg",
+      "population": 967069,
+      "description": "Naples is a historic city in southern Italy, known for its rich history, art, and architecture.",
+      "top_5_places_to_visit": [
+        "Pompeii",
+        "Mount Vesuvius",
+        "Naples National Archaeological Museum",
+        "Castel dell'Ovo",
+        "Spaccanapoli"
+      ]
     },
     {
       "id": 23,
       "city": "Nice",
       "country": "France",
-      "img": "./resources/nice.jpg"
+      "img": "./resources/nice.jpg",
+      "population": 342295,
+      "description": "Nice is a city on the French Riviera, known for its beautiful coastline, vibrant old town, and Mediterranean climate.",
+      "top_5_places_to_visit": [
+        "Promenade des Anglais",
+        "Old Town (Vieux Nice)",
+        "Castle Hill",
+        "Matisse Museum",
+        "Marc Chagall National Museum"
+      ]
     },
     {
       "id": 24,
       "city": "Paris",
       "country": "France",
-      "img": "./resources/paris.jpg"
+      "img": "./resources/paris.jpg",
+      "population": 2148327,
+      "description": "Paris is the capital of France, known for its art, fashion, and landmarks like the Eiffel Tower.",
+      "top_5_places_to_visit": [
+        "Eiffel Tower",
+        "Louvre Museum",
+        "Notre-Dame Cathedral",
+        "Champs-Élysées",
+        "Sacré-Cœur"
+      ]
     },
     {
       "id": 25,
       "city": "Rennes",
       "country": "France",
-      "img": "./resources/rennes.jpg"
+      "img": "./resources/rennes.jpg",
+      "population": 216815,
+      "description": "Rennes is a city in northwest France, known for its medieval half-timbered houses and vibrant student population.",
+      "top_5_places_to_visit": [
+        "Parlement de Bretagne",
+        "Rennes Cathedral",
+        "Parc du Thabor",
+        "Les Champs Libres",
+        "Place des Lices"
+      ]
     },
     {
       "id": 26,
       "city": "Rome",
       "country": "Italy",
-      "img": "./resources/rome.jpg"
+      "img": "./resources/rome.jpg",
+      "population": 2872800,
+      "description": "Rome is the capital of Italy, known for its nearly 3,000 years of globally influential art, architecture, and culture.",
+      "top_5_places_to_visit": [
+        "Colosseum",
+        "Vatican Museums",
+        "Pantheon",
+        "Roman Forum",
+        "Trevi Fountain"
+      ]
     },
     {
       "id": 27,
       "city": "Salzburg",
       "country": "Austria",
-      "img": "./resources/salzburg.jpg"
+      "img": "./resources/salzburg.jpg",
+      "population": 156872,
+      "description": "Salzburg is an Austrian city known for its baroque architecture and as the birthplace of Mozart.",
+      "top_5_places_to_visit": [
+        "Hohensalzburg Fortress",
+        "Mirabell Palace",
+        "Mozart's Birthplace",
+        "Salzburg Cathedral",
+        "Hellbrunn Palace"
+      ]
     },
     {
       "id": 28,
       "city": "Santorini",
       "country": "Greece",
-      "img": "./resources/santorini.jpg"
+      "img": "./resources/santorini.jpg",
+      "population": 15550,
+      "description": "Santorini is a Greek island known for its stunning sunsets, white-washed buildings, and beautiful beaches.",
+      "top_5_places_to_visit": [
+        "Oia",
+        "Fira",
+        "Red Beach",
+        "Ancient Thera",
+        "Akrotiri Archaeological Site"
+      ]
     },
     {
       "id": 29,
       "city": "Saint Petersburg",
       "country": "Russia",
-      "img": "./resources/saint_petersburg.jpg"
+      "img": "./resources/saint_petersburg.jpg",
+      "population": 5383890,
+      "description": "Saint Petersburg is a Russian city known for its imperial palaces, museums, and canals.",
+      "top_5_places_to_visit": [
+        "Hermitage Museum",
+        "Peter and Paul Fortress",
+        "Church of the Savior on Spilled Blood",
+        "Winter Palace",
+        "Catherine Palace"
+      ]
     },
     {
       "id": 30,
       "city": "Seville",
       "country": "Spain",
-      "img": "./resources/seville.jpg"
+      "img": "./resources/seville.jpg",
+      "population": 688711,
+      "description": "Seville is a city in southern Spain known for its flamenco dancing, Gothic cathedral, and rich history.",
+      "top_5_places_to_visit": [
+        "Seville Cathedral",
+        "Alcázar of Seville",
+        "Plaza de España",
+        "Metropol Parasol",
+        "Giralda Tower"
+      ]
     },
     {
       "id": 31,
       "city": "Turin",
       "country": "Italy",
-      "img": "./resources/turin.jpg"
+      "img": "./resources/turin.jpg",
+      "population": 875698,
+      "description": "Turin is an Italian city known for its baroque architecture, rich culture, and automotive industry.",
+      "top_5_places_to_visit": [
+        "Mole Antonelliana",
+        "Egyptian Museum",
+        "Palazzo Reale",
+        "Piazza Castello",
+        "Basilica di Superga"
+      ]
     },
     {
       "id": 32,
       "city": "Valencia",
       "country": "Spain",
-      "img": "./resources/valencia.jpg"
+      "img": "./resources/valencia.jpg",
+      "population": 791413,
+      "description": "Valencia is a Spanish city known for its City of Arts and Sciences, historic center, and beautiful beaches.",
+      "top_5_places_to_visit": [
+        "City of Arts and Sciences",
+        "Valencia Cathedral",
+        "L'Oceanogràfic",
+        "La Lonja de la Seda",
+        "Turia Gardens"
+      ]
     },
     {
       "id": 33,
       "city": "Venice",
       "country": "Italy",
-      "img": "./resources/venice.jpg"
+      "img": "./resources/venice.jpg",
+      "population": 261905,
+      "description": "Venice is an Italian city known for its canals, historic architecture, and vibrant cultural heritage.",
+      "top_5_places_to_visit": [
+        "St. Mark's Basilica",
+        "Doge's Palace",
+        "Grand Canal",
+        "Rialto Bridge",
+        "Murano"
+      ]
     },
     {
       "id": 34,
       "city": "Verona",
       "country": "Italy",
-      "img": "./resources/verona.jpg"
+      "img": "./resources/verona.jpg",
+      "population": 257275,
+      "description": "Verona is an Italian city known for its well-preserved Roman architecture and as the setting of Shakespeare's 'Romeo and Juliet'.",
+      "top_5_places_to_visit": [
+        "Verona Arena",
+        "Juliet's House",
+        "Piazza delle Erbe",
+        "Castelvecchio",
+        "Ponte Pietra"
+      ]
     },
     {
       "id": 35,
       "city": "Vienna",
       "country": "Austria",
-      "img": "./resources/vienna.jpg"
+      "img": "./resources/vienna.jpg",
+      "population": 1911191,
+      "description": "Vienna is the capital of Austria, known for its artistic and intellectual legacy shaped by residents like Mozart and Freud.",
+      "top_5_places_to_visit": [
+        "Schönbrunn Palace",
+        "Hofburg Palace",
+        "St. Stephen's Cathedral",
+        "Belvedere Palace",
+        "Prater"
+      ]
     },
     {
       "id": 36,
       "city": "Zadar",
       "country": "Croatia",
-      "img": "./resources/zadar.jpg"
+      "img": "./resources/zadar.jpg",
+      "population": 75082,
+      "description": "Zadar is a Croatian city known for its Roman and Venetian ruins and modern installations like the Sea Organ.",
+      "top_5_places_to_visit": [
+        "Sea Organ",
+        "Church of St. Donatus",
+        "Zadar Cathedral",
+        "Roman Forum",
+        "Greeting to the Sun"
+      ]
     },
     {
       "id": 37,
       "city": "Zagreb",
       "country": "Croatia",
-      "img": "./resources/zagreb.jpg"
+      "img": "./resources/zagreb.jpg",
+      "population": 806341,
+      "description": "Zagreb is the capital of Croatia, known for its historic architecture, vibrant street life, and cultural events.",
+      "top_5_places_to_visit": [
+        "Zagreb Cathedral",
+        "St. Mark's Church",
+        "Ban Jelačić Square",
+        "Museum of Broken Relationships",
+        "Dolac Market"
+      ]
     },
     {
       "id": 38,
       "city": "Zurich",
       "country": "Switzerland",
-      "img": "./resources/zurich.jpg"
+      "img": "./resources/zurich.jpg",
+      "population": 428737,
+      "description": "Zurich is a global city in Switzerland, known for its well-preserved medieval old town and vibrant cultural scene.",
+      "top_5_places_to_visit": [
+        "Lake Zurich",
+        "Old Town (Altstadt)",
+        "Swiss National Museum",
+        "Bahnhofstrasse",
+        "Grossmünster"
+      ]
     }
   ]
 }
