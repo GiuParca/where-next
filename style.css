@@ -106,7 +106,7 @@ button:hover {
 
 .popup-view {
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.885);
     position: fixed;
     top: 0;
     left: 0;
@@ -128,31 +128,51 @@ button:hover {
 .popup-card {
     position: relative;
     background: #fff;
-    padding: 20px;
     border-radius: 10px;
-    width: 80%;
+    height: 87%;
     max-width: 500px;
     text-align: center;
 }
 
-.city-info h2 {
-    font-size: 30px;
-    margin-bottom: 10px;
+.city-info h3 {
+    font-size: 18px;
+    padding: 10px;
+    font-family: monospace;
 }
 
-.city-info p {
-    margin: 10px 0;
+.popup-card img{
+    width: 100%; 
+    border-radius: 10px 10px 0 0 ;
 }
 
 .close-btn {
     position: absolute;
     top: 10px;
-    right: 10px;
-    font-size: 30px;
+    right: 20px;
+    font-size: 35px;
     cursor: pointer;
     color: #000;
+    font-weight: 900;
 }
 
+h4{
+    font-family: monospace;
+    font-size: 16px;
+    background-color: rgba(10, 138, 89, 0.862);
+    color: #fdfbfbef;
+    width: 220px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    line-height: 1.5;
+}
+ 
 @media (max-width: 900px) {
     .popup-card {
         width: 90%;

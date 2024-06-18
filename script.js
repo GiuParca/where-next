@@ -105,18 +105,30 @@ function openPopup(city) {
     const info = document.createElement('div');
     info.classList.add('city-info');
 
-    const cityName = document.createElement('h2');
-    cityName.textContent = city.city;
+    const img = document.createElement('img');
+    img.src = city.img;
+    img.alt = city.city;
 
-    const description = document.createElement('p');
-    description.textContent = `Description: ${city.description}`;
+    const description = document.createElement('h3');
+    description.innerHTML = city.description;
 
-    const population = document.createElement('p');
-    population.textContent = `Population: ${city.population}`;
+    const topPlaces = document.createElement('div');
+    topPlaces.classList.add('top-places');
+    const topPlacesTitle = document.createElement('h4');
+    topPlacesTitle.textContent = 'Top 5 Places to Visit:';
+    const placesList = document.createElement('ul');
+    city.top_5_places_to_visit.forEach(place => {
+        const listItem = document.createElement('li');
+        listItem.textContent = place;
+        placesList.appendChild(listItem);
+    });
 
-    info.appendChild(cityName);
+    topPlaces.appendChild(topPlacesTitle);
+    topPlaces.appendChild(placesList);
+
+    info.appendChild(img);
     info.appendChild(description);
-    info.appendChild(population);
+    info.appendChild(topPlaces);
 
     popupCard.appendChild(closePopupBtn);
     popupCard.appendChild(info);

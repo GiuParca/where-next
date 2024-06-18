@@ -5,7 +5,6 @@
       "city": "Amsterdam",
       "country": "Netherlands",
       "img": "./resources/amsterdam.jpg",
-      "population": 821752,
       "description": "Amsterdam is known for its artistic heritage, elaborate canal system, and narrow houses with gabled facades.",
       "top_5_places_to_visit": [
         "Rijksmuseum",
@@ -20,7 +19,6 @@
       "city": "Athens",
       "country": "Greece",
       "img": "./resources/athens.jpg",
-      "population": 664046,
       "description": "Athens is the capital of Greece, known for its ancient landmarks and rich history.",
       "top_5_places_to_visit": [
         "Acropolis",
@@ -35,7 +33,6 @@
       "city": "Barcelona",
       "country": "Spain",
       "img": "./resources/barcelona.jpg",
-      "population": 1620343,
       "description": "Barcelona is famous for its unique architecture, vibrant culture, and beautiful beaches.",
       "top_5_places_to_visit": [
         "Sagrada Família",
@@ -50,7 +47,6 @@
       "city": "Berlin",
       "country": "Germany",
       "img": "./resources/berlin.jpg",
-      "population": 3644826,
       "description": "Berlin is the capital of Germany, known for its art scene, modern landmarks, and historical sites.",
       "top_5_places_to_visit": [
         "Brandenburg Gate",
@@ -65,7 +61,6 @@
       "city": "Bordeaux",
       "country": "France",
       "img": "./resources/bordeaux.jpg",
-      "population": 257068,
       "description": "Bordeaux is famous for its wine industry, beautiful architecture, and historic monuments.",
       "top_5_places_to_visit": [
         "Place de la Bourse",
@@ -80,7 +75,6 @@
       "city": "Copenhagen",
       "country": "Denmark",
       "img": "./resources/copenhagen.jpg",
-      "population": 602481,
       "description": "Copenhagen, the capital of Denmark, is known for its historic center, modern architecture, and vibrant cultural scene.",
       "top_5_places_to_visit": [
         "Nyhavn",
@@ -95,7 +89,6 @@
       "city": "Dubrovnik",
       "country": "Croatia",
       "img": "./resources/dubrovnik.jpg",
-      "population": 42415,
       "description": "Dubrovnik is a stunning Croatian city known for its well-preserved medieval architecture and beautiful coastline.",
       "top_5_places_to_visit": [
         "Old Town",
@@ -110,7 +103,6 @@
       "city": "Stockholm",
       "country": "Sweden",
       "img": "./resources/stockholm.jpg",
-      "population": 975551,
       "description": "Stockholm is the capital of Sweden, known for its archipelago, beautiful architecture, and vibrant culture.",
       "top_5_places_to_visit": [
         "Gamla Stan",
@@ -125,7 +117,6 @@
       "city": "Florence",
       "country": "Italy",
       "img": "./resources/florence.jpg",
-      "population": 383084,
       "description": "Florence is the capital of Italy’s Tuscany region, known for its Renaissance art and architecture.",
       "top_5_places_to_visit": [
         "Cathedral of Santa Maria del Fiore",
@@ -140,7 +131,6 @@
       "city": "Frankfurt",
       "country": "Germany",
       "img": "./resources/frankfurt.jpg",
-      "population": 753056,
       "description": "Frankfurt is a major financial hub in Germany, known for its futuristic skyline and cultural attractions.",
       "top_5_places_to_visit": [
         "Römer",
@@ -155,7 +145,6 @@
       "city": "Geneva",
       "country": "Switzerland",
       "img": "./resources/geneva.jpg",
-      "population": 201818,
       "description": "Geneva is a global city in Switzerland, known for its Red Cross headquarters and UN offices.",
       "top_5_places_to_visit": [
         "Jet d'Eau",
@@ -170,7 +159,6 @@
       "city": "Genoa",
       "country": "Italy",
       "img": "./resources/genoa.jpg",
-      "population": 583601,
       "description": "Genoa is a historic port city in Italy, known for its maritime heritage and beautiful architecture.",
       "top_5_places_to_visit": [
         "Aquarium of Genoa",
@@ -185,7 +173,6 @@
       "city": "Granada",
       "country": "Spain",
       "img": "./resources/granada.jpg",
-      "population": 233764,
       "description": "Granada is known for its stunning Moorish architecture, particularly the Alhambra palace.",
       "top_5_places_to_visit": [
         "Alhambra",
@@ -200,7 +187,6 @@
       "city": "Hamburg",
       "country": "Germany",
       "img": "./resources/hamburg.jpg",
-      "population": 1841179,
       "description": "Hamburg is a major port city in Germany, known for its maritime history and modern architecture.",
       "top_5_places_to_visit": [
         "Miniatur Wunderland",
@@ -215,7 +201,6 @@
       "city": "Lyon",
       "country": "France",
       "img": "./resources/lyon.jpg",
-      "population": 518635,
       "description": "Lyon is known for its historical and architectural landmarks and its vibrant cultural scene.",
       "top_5_places_to_visit": [
         "Basilica of Notre-Dame de Fourvière",
@@ -230,7 +215,6 @@
       "city": "Madrid",
       "country": "Spain",
       "img": "./resources/madrid.jpg",
-      "population": 3223334,
       "description": "Madrid is the capital of Spain, known for its Royal Palace, vibrant nightlife, and rich culture.",
       "top_5_places_to_visit": [
         "Royal Palace",
@@ -245,7 +229,6 @@
       "city": "Marseille",
       "country": "France",
       "img": "./resources/marseille.jpg",
-      "population": 861635,
       "description": "Marseille is a port city in southern France, known for its rich history and vibrant cultural scene.",
       "top_5_places_to_visit": [
         "Old Port of Marseille",
@@ -260,7 +243,6 @@
       "city": "Milan",
       "country": "Italy",
       "img": "./resources/milan.jpg",
-      "population": 1378689,
       "description": "Milan is Italy's fashion and design capital, known for its high-end shopping and gothic cathedral.",
       "top_5_places_to_visit": [
         "Milan Cathedral",
@@ -275,7 +257,6 @@
       "city": "Moscow",
       "country": "Russia",
       "img": "./resources/moscow.jpg",
-      "population": 12506468,
       "description": "Moscow is the capital of Russia, known for its historic and architectural landmarks.",
       "top_5_places_to_visit": [
         "Red Square",
@@ -290,7 +271,6 @@
       "city": "Munich",
       "country": "Germany",
       "img": "./resources/munich.jpg",
-      "population": 1471508,
       "description": "Munich is the capital of Bavaria, known for its Oktoberfest, beer halls, and historic buildings.",
       "top_5_places_to_visit": [
         "Marienplatz",
@@ -305,7 +285,6 @@
       "city": "Mykonos",
       "country": "Greece",
       "img": "./resources/mykonos.jpg",
-      "population": 10134,
       "description": "Mykonos is a Greek island known for its vibrant nightlife and beautiful beaches.",
       "top_5_places_to_visit": [
         "Mykonos Town",
@@ -320,7 +299,6 @@
       "city": "Naples",
       "country": "Italy",
       "img": "./resources/naples.jpg",
-      "population": 967069,
       "description": "Naples is a historic city in southern Italy, known for its rich history, art, and architecture.",
       "top_5_places_to_visit": [
         "Pompeii",
@@ -335,7 +313,6 @@
       "city": "Nice",
       "country": "France",
       "img": "./resources/nice.jpg",
-      "population": 342295,
       "description": "Nice is a city on the French Riviera, known for its beautiful coastline, vibrant old town, and Mediterranean climate.",
       "top_5_places_to_visit": [
         "Promenade des Anglais",
@@ -350,7 +327,6 @@
       "city": "Paris",
       "country": "France",
       "img": "./resources/paris.jpg",
-      "population": 2148327,
       "description": "Paris is the capital of France, known for its art, fashion, and landmarks like the Eiffel Tower.",
       "top_5_places_to_visit": [
         "Eiffel Tower",
@@ -365,7 +341,6 @@
       "city": "Rennes",
       "country": "France",
       "img": "./resources/rennes.jpg",
-      "population": 216815,
       "description": "Rennes is a city in northwest France, known for its medieval half-timbered houses and vibrant student population.",
       "top_5_places_to_visit": [
         "Parlement de Bretagne",
@@ -380,7 +355,6 @@
       "city": "Rome",
       "country": "Italy",
       "img": "./resources/rome.jpg",
-      "population": 2872800,
       "description": "Rome is the capital of Italy, known for its nearly 3,000 years of globally influential art, architecture, and culture.",
       "top_5_places_to_visit": [
         "Colosseum",
@@ -395,7 +369,6 @@
       "city": "Salzburg",
       "country": "Austria",
       "img": "./resources/salzburg.jpg",
-      "population": 156872,
       "description": "Salzburg is an Austrian city known for its baroque architecture and as the birthplace of Mozart.",
       "top_5_places_to_visit": [
         "Hohensalzburg Fortress",
@@ -410,7 +383,6 @@
       "city": "Santorini",
       "country": "Greece",
       "img": "./resources/santorini.jpg",
-      "population": 15550,
       "description": "Santorini is a Greek island known for its stunning sunsets, white-washed buildings, and beautiful beaches.",
       "top_5_places_to_visit": [
         "Oia",
@@ -425,7 +397,6 @@
       "city": "Saint Petersburg",
       "country": "Russia",
       "img": "./resources/saint_petersburg.jpg",
-      "population": 5383890,
       "description": "Saint Petersburg is a Russian city known for its imperial palaces, museums, and canals.",
       "top_5_places_to_visit": [
         "Hermitage Museum",
@@ -440,7 +411,6 @@
       "city": "Seville",
       "country": "Spain",
       "img": "./resources/seville.jpg",
-      "population": 688711,
       "description": "Seville is a city in southern Spain known for its flamenco dancing, Gothic cathedral, and rich history.",
       "top_5_places_to_visit": [
         "Seville Cathedral",
@@ -455,7 +425,6 @@
       "city": "Turin",
       "country": "Italy",
       "img": "./resources/turin.jpg",
-      "population": 875698,
       "description": "Turin is an Italian city known for its baroque architecture, rich culture, and automotive industry.",
       "top_5_places_to_visit": [
         "Mole Antonelliana",
@@ -470,7 +439,6 @@
       "city": "Valencia",
       "country": "Spain",
       "img": "./resources/valencia.jpg",
-      "population": 791413,
       "description": "Valencia is a Spanish city known for its City of Arts and Sciences, historic center, and beautiful beaches.",
       "top_5_places_to_visit": [
         "City of Arts and Sciences",
@@ -485,7 +453,6 @@
       "city": "Venice",
       "country": "Italy",
       "img": "./resources/venice.jpg",
-      "population": 261905,
       "description": "Venice is an Italian city known for its canals, historic architecture, and vibrant cultural heritage.",
       "top_5_places_to_visit": [
         "St. Mark's Basilica",
@@ -500,7 +467,6 @@
       "city": "Verona",
       "country": "Italy",
       "img": "./resources/verona.jpg",
-      "population": 257275,
       "description": "Verona is an Italian city known for its well-preserved Roman architecture and as the setting of Shakespeare's 'Romeo and Juliet'.",
       "top_5_places_to_visit": [
         "Verona Arena",
@@ -515,7 +481,6 @@
       "city": "Vienna",
       "country": "Austria",
       "img": "./resources/vienna.jpg",
-      "population": 1911191,
       "description": "Vienna is the capital of Austria, known for its artistic and intellectual legacy shaped by residents like Mozart and Freud.",
       "top_5_places_to_visit": [
         "Schönbrunn Palace",
@@ -530,7 +495,6 @@
       "city": "Zadar",
       "country": "Croatia",
       "img": "./resources/zadar.jpg",
-      "population": 75082,
       "description": "Zadar is a Croatian city known for its Roman and Venetian ruins and modern installations like the Sea Organ.",
       "top_5_places_to_visit": [
         "Sea Organ",
@@ -545,7 +509,6 @@
       "city": "Zagreb",
       "country": "Croatia",
       "img": "./resources/zagreb.jpg",
-      "population": 806341,
       "description": "Zagreb is the capital of Croatia, known for its historic architecture, vibrant street life, and cultural events.",
       "top_5_places_to_visit": [
         "Zagreb Cathedral",
@@ -560,7 +523,6 @@
       "city": "Zurich",
       "country": "Switzerland",
       "img": "./resources/zurich.jpg",
-      "population": 428737,
       "description": "Zurich is a global city in Switzerland, known for its well-preserved medieval old town and vibrant cultural scene.",
       "top_5_places_to_visit": [
         "Lake Zurich",
