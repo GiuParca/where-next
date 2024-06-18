@@ -1,5 +1,5 @@
 const searchBar = document.getElementById('input');
-let cities = []; 
+let cities = [];
 const prevBtn = document.getElementById('prevButton');
 const nextBtn = document.getElementById('nextButton');
 let page = 1;
@@ -7,7 +7,7 @@ const cardsPerPage = 12;
 
 function renderCards(data, page) {
     const container = document.getElementById('container');
-    container.innerHTML = ''; 
+    container.innerHTML = '';
 
     const start = (page - 1) * cardsPerPage;
     const end = start + cardsPerPage;
@@ -32,6 +32,12 @@ function renderCards(data, page) {
         card.appendChild(cityName);
         card.appendChild(img);
         card.appendChild(countryName);
+
+        // Add click event to open popup
+        card.addEventListener('click', () => {
+            openPopup(city);
+        });
+
         container.appendChild(card);
     });
 
@@ -51,8 +57,8 @@ function loadingCards() {
     fetch('./data.json')
         .then(response => response.json())
         .then(data => {
-            cities = data.cities; 
-            renderCards(cities, page); 
+            cities = data.cities;
+            renderCards(cities, page);
         })
         .catch(error => console.error('Error loading the cards', error));
 }
@@ -81,3 +87,42 @@ nextBtn.addEventListener('click', () => {
         renderCards(cities, page);
     }
 });
+
+function openPopup(city) {
+    const popupView = document.createElement('div');
+    popupView.classList.add('popup-view', 'active');
+
+    const popupCard = document.createElement('div');
+    popupCard.classList.add('popup-card');
+
+    const closePopupBtn = document.createElement('span');
+    closePopupBtn.classList.add('close-btn');
+    closePopupBtn.innerHTML = '&times;';
+    closePopupBtn.onclick = () => {
+        document.body.removeChild(popupView);
+    };
+
+    const info = document.createElement('div');
+    info.classList.add('city-info');
+
+    const cityName = document.createElement('h2');
+    cityName.textContent = city.city;
+
+    const description = document.createElement('p');
+    description.textContent = `Description: ${city.description}`;
+
+    const population = document.createElement('p');
+    population.textContent = `Population: ${city.population}`;
+
+    info.appendChild(cityName);
+    info.appendChild(description);
+    info.appendChild(population);
+
+    popupCard.appendChild(closePopupBtn);
+    popupCard.appendChild(info);
+    popupView.appendChild(popupCard);
+
+    document.body.appendChild(popupView);
+}
+
+
