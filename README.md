@@ -12,4 +12,11 @@ to deepen knowledge of search filters, using fetch() to load JSON data, and pagi
 </ul>
 
 <h2>What I&#39;ve learned:</h2>
-<p> I deepened my understanding of Flexbox and the JavaScript filter method throughout this project. Additionally, I learned how to implement pagination in JavaScript, which was entirely new to me.</p>
+<p> I deepened my understanding of flexbox and the JavaScript filter method throughout this project. Additionally, I learned how to implement pagination in JavaScript, which was entirely new to me.</p>
+
+
+
+
+
+https://github.com/GiuParca/where-next/assets/124640350/7e1a2d64-b155-45ef-a4ab-b4e8ffa243b5
+
