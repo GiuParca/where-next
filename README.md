@@ -17,6 +17,8 @@ to deepen knowledge of search filters, using fetch() to load JSON data, and pagi
 
 
 
+https://github.com/GiuParca/where-next/assets/124640350/c041f8aa-e76b-4816-868e-cce58dcd5cb9
 
-https://github.com/GiuParca/where-next/assets/124640350/7e1a2d64-b155-45ef-a4ab-b4e8ffa243b5
+
+
 
