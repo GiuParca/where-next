@@ -9,6 +9,7 @@ to deepen knowledge of search filters, using fetch() to load JSON data, and pagi
 <li>Display data from a JSON file in HTML</li>
 <li>Filter user searches</li>
 <li>Show a new list of destinations with each click on the arrow buttons</li>
+<li>Quick-view cards that display detailed information about each city are available.</li>
 </ul>
 
 <h2>What I&#39;ve learned:</h2>
